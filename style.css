@@ -84,6 +84,12 @@ hr{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 35px;
 }
+.course-detals{
+    box-shadow: 1px 1px 1pc grey;
+    height: 300px;
+    border-radius: 9px;
+    padding: 10px 10px;
+}
 .baner img{
     width: 224px;
     height: 104px;  
@@ -112,5 +118,25 @@ hr{
     padding: 5px 10px;
     border-radius: 30px;
     color: #FF4A60; 
+}
+/* -----------
+media quarry part
+-------------- */
+@media only screen and (max-width: 688px){
+ 
+    .contaner{
+        width: 100%;
+    }
+    .section-top{
+        margin-left: 135px;
+    }
+    .firstbox, .blogs, .contaner-2{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 20px;
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    
 }
 
