@@ -137,6 +137,8 @@ media quarry part
     .player, .blog{
         flex-direction: column;
     }
-    
+    .course-detals{
+        margin-bottom: 20px;
+    }
 }
 
